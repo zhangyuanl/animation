@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_interpolator">
+    <scale
+        android:duration="150"
+        android:fromXScale="0.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="1.0"
+        android:toYScale="1.0" />
+    <!--那么他们的变化都是先对于某一点来变化的，因此pivotX和pivotY就是确定这个点的位置-->
+    <!--所以圆心点的坐标就是(0.5x,0.5y) 即图片的中心-->
+
+</set>
